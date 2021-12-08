@@ -22,6 +22,9 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Hello'),
+      ),
       body: SafeArea(
         child: Container(
           margin: const EdgeInsets.all(12),
